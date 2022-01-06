@@ -1,0 +1,260 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.total-padding {
+    padding: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.section-padding-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Welcome Area Css */
+
+.welcome-content-and-image {
+    display: flex;
+    align-items: center;
+
+}
+
+.welcome-content-text {
+    width: 50%;
+}
+
+.developer-image {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.welcome-content-text h2 {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    margin-top: 0;
+    position: relative;
+    padding-left: 15px;
+}
+
+.welcome-content-text h2::after {
+    background-color: #B30D3C;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+}
+
+.welcome-content-text h2 span {
+    color: #5138EE;
+}
+
+.welcome-content-text p {
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.red-btn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.red-btn a {
+    background-color: #5138EE;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+/* My Mission Area Css */
+
+.heading-title {
+    font-size: 44px;
+    text-align: center;
+}
+
+.heading-title span {
+    color: #A30D3B;
+}
+
+.mission-area-content {
+    display: flex;
+}
+
+.mission-single-card {
+    width: 33.3333%;
+    margin: 0 15px;
+}
+
+.mission-single-card h4 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.mission-single-card {
+    background-color: rgba(80, 56, 238, 0.15);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.mission-single-card.two {
+    background-color: rgb(168, 22, 22, 0.15);
+}
+
+.mission-single-card.three {
+    background-color: rgb(69, 237, 30, 0.15);
+}
+
+.mission-single-card p {
+    margin-bottom: 0;
+}
+
+/* About us area Css */
+
+.about-content-image {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.about-content {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.about-content h2 {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+/* global community Work Area Css  */
+.global-content-and-image {
+    display: flex;
+    align-items: center;
+}
+
+.global-content-text {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.global-image {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.global-content-text h2 {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.global-content-text p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.documention-btn {
+    margin-top: 50px;
+}
+
+.documention-btn a {
+    background-color: #5138EE;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Service Area Css */
+
+.service-area-content {
+    display: flex;
+}
+
+.single-service-card {
+    background-color: rgba(80, 56, 238, 0.15);
+    padding: 70px 30px;
+    width: 25%;
+    margin: 0 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.single-service-card h4 {
+    font-size: 26px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.service-list {
+    padding: 0;
+}
+
+.service-list li {
+    margin-bottom: 15px;
+    list-style: none;
+    font-size: 18px;
+}
+
+/* Footer Area Css */
+
+.footer-area {
+    background-color: #111;
+    padding: 50px 0;
+}
+
+.footer-area-content h2 {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer-area-content h2 span {
+    color: #EC1653;
+}
+
+.footer-area-content p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 20px;
+}
